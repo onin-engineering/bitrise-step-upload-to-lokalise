@@ -41,6 +41,10 @@ workflows:
         run_if: true
         inputs:
         - example_step_input: Example Step Input's value
+        - lokalise_token: 3a19e4e462ea797795c1f8424f4688a9dd2f24bc
+        - lokalise_project_id: 952443255e82f2dd8939b9.38671352
+        - file_path: ./Onin/Onin/Localisation/en.lproj/Localizable.strings
+        - lang_iso: en
     - script:
         inputs:
         - content: |

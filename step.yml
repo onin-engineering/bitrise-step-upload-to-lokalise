@@ -85,3 +85,10 @@ inputs:
       is_expand: true
       is_required: true
       value_options: []
+  - lang_iso: en
+    opts:
+      title: "Language ISO code"
+      summary: "The language code for the file you are uploading"
+      is_expand: true
+      is_required: true
+      value_options: []
