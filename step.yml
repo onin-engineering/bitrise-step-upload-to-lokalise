@@ -68,25 +68,21 @@ inputs:
       summary: "Your CLI/API token for Lokalise"
       is_expand: true
       is_required: true
-      value_options: []
   - lokalise_project_id:
     opts:
       title: "Lokalise Project ID"
       summary: "Your project ID for Lokalise"
       is_expand: true
       is_required: true
-      value_options: []
   - file_path:
     opts:
       title: "Path to file for upload"
       summary: "The path to the file you want to upload to localise"
       is_expand: true
       is_required: true
-      value_options: []
   - lang_iso: en
     opts:
       title: "Language ISO code"
       summary: "The language code for the file you are uploading"
       is_expand: true
       is_required: true
-      value_options: []
